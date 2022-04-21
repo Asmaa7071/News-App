@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/country"
+        android:title="Country"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/eg"
+                android:checkable="true"
+                android:checked="true"
+                android:title="Egypt"
+                app:showAsAction="collapseActionView" />
+
+            <item
+                android:id="@+id/us"
+                android:checkable="true"
+                android:checked="false"
+                android:title="USA"
+                app:showAsAction="collapseActionView" />
+
+            <item
+                android:id="@+id/tr"
+                android:checkable="true"
+                android:checked="false"
+                android:title="Turkey"
+                app:showAsAction="collapseActionView" />
+        </menu>
+
+    </item>
+</menu>
